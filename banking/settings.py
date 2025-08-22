@@ -78,7 +78,6 @@ WSGI_APPLICATION = 'banking.wsgi.application'
 
 DATABASES = {
     'default': {
-<<<<<<< HEAD
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'banking',
         'USER': 'postgres',
@@ -87,8 +86,6 @@ DATABASES = {
         'PORT': '5432',
     },
     'local': {
-=======
->>>>>>> 723ed114a6eeb44f42161da1e7ca98387489c78c
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
