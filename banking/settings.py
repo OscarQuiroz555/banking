@@ -35,6 +35,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'authentication',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -83,7 +84,7 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': 'unicesmag',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': '5433',
     },
     'local': {
         'ENGINE': 'django.db.backends.sqlite3',
