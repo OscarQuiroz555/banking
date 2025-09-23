@@ -31,7 +31,7 @@ class User(models.Model):
     address = models.CharField(max_length=100, blank=True)
     email = models.EmailField(max_length=50)
     password = models.TextField()
-    id_city = models.ForeignKey(City, on_delete=models.CASCADE) #error
+    id_city = models.ForeignKey(City, on_delete=models.CASCADE)
     status = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
