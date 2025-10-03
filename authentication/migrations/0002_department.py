@@ -23,4 +23,8 @@ class Migration(migrations.Migration):
                 ('id_country', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='authentication.country')),
             ],
         ),
+<<<<<<< HEAD
     ]
+=======
+    ]
+>>>>>>> amigo/main

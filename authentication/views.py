@@ -1,6 +1,12 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
+# Create your views here.
+def index(request):
+    return HttpResponse("This is my first view.")
+from django.shortcuts import render
+from django.http import HttpResponse
+
 def index(request):
     return HttpResponse("Welcome to the Banking App")
 

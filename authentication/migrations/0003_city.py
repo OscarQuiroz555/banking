@@ -22,4 +22,8 @@ class Migration(migrations.Migration):
                 ('id_department', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='authentication.department')),
             ],
         ),
+<<<<<<< HEAD
     ]
+=======
+    ]
+>>>>>>> amigo/main
